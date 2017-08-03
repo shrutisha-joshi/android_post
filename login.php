@@ -1,8 +1,8 @@
 <?php
-$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$dbname = "db2";
+$servername = "mysql5.gear.host";
+$username = "database8";
+$password = "Uc77Vvjkh!s-";
+$dbname = "database8";
 $conn=mysqli_connect($servername,$username,$password,$dbname);
 if ($conn){
 	echo "success";
